@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 6eb6d3d0a26f8bc44ad00f2f931e6ee7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Main Character - Male - Full spritesheet - No Guide_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17b344d8e8ba59469e19adf71d3955b
+      internalID: 1652401027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character - Male - Full spritesheet - No Guide_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbab5a36e2bedb47a47e0ec4d306a46
+      internalID: -59077884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character - Male - Full spritesheet - No Guide_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25111ef41ade5984aa0ad55306443976
+      internalID: -1481615103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character - Male - Full spritesheet - No Guide_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7869c228a30a4c24087a0cf5d72335c9
+      internalID: -987453452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character - Male - Full spritesheet - No Guide_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83379431feee9347af035014bdb9690
+      internalID: 2075804898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character - Male - Full spritesheet - No Guide_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 608
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dbd402fe251ca4cb5bc5df10b7b098
+      internalID: 1004552852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Main Character - Male - Full spritesheet - No Guide_75: 1531486544
+      Main Character - Male - Full spritesheet - No Guide_37: 1447431915
+      Main Character - Male - Full spritesheet - No Guide_94: 1802576654
+      Main Character - Male - Full spritesheet - No Guide_38: 475585402
+      Main Character - Male - Full spritesheet - No Guide_40: 1533636024
+      Main Character - Male - Full spritesheet - No Guide_88: -1256836057
+      Main Character - Male - Full spritesheet - No Guide_115: -698933411
+      Main Character - Male - Full spritesheet - No Guide_36: 938076296
+      Main Character - Male - Full spritesheet - No Guide_1: -59077884
+      Main Character - Male - Full spritesheet - No Guide_91: 2002620176
+      Main Character - Male - Full spritesheet - No Guide_78: -251312704
+      Main Character - Male - Full spritesheet - No Guide_69: -1935119356
+      Main Character - Male - Full spritesheet - No Guide_24: -223079642
+      Main Character - Male - Full spritesheet - No Guide_39: -532670945
+      Main Character - Male - Full spritesheet - No Guide_122: 1522921067
+      Main Character - Male - Full spritesheet - No Guide_60: -1458415011
+      Main Character - Male - Full spritesheet - No Guide_65: -895721590
+      Main Character - Male - Full spritesheet - No Guide_96: -749030182
+      Main Character - Male - Full spritesheet - No Guide_89: 1844319180
+      Main Character - Male - Full spritesheet - No Guide_34: 1737924589
+      Main Character - Male - Full spritesheet - No Guide_57: 1343430512
+      Main Character - Male - Full spritesheet - No Guide_76: -1874430494
+      Main Character - Male - Full spritesheet - No Guide_121: -218922466
+      Main Character - Male - Full spritesheet - No Guide_3: -987453452
+      Main Character - Male - Full spritesheet - No Guide_86: -1391402626
+      Main Character - Male - Full spritesheet - No Guide_61: 982789926
+      Main Character - Male - Full spritesheet - No Guide_108: 717214925
+      Main Character - Male - Full spritesheet - No Guide_82: 257198209
+      Main Character - Male - Full spritesheet - No Guide_102: 525613434
+      Main Character - Male - Full spritesheet - No Guide_27: 188087053
+      Main Character - Male - Full spritesheet - No Guide_95: 241013574
+      Main Character - Male - Full spritesheet - No Guide_73: 1748146703
+      Main Character - Male - Full spritesheet - No Guide_77: -1189670155
+      Main Character - Male - Full spritesheet - No Guide_59: -1896021503
+      Main Character - Male - Full spritesheet - No Guide_106: -768933944
+      Main Character - Male - Full spritesheet - No Guide_98: -1090492293
+      Main Character - Male - Full spritesheet - No Guide_109: 654612230
+      Main Character - Male - Full spritesheet - No Guide_114: -922847430
+      Main Character - Male - Full spritesheet - No Guide_25: 676613686
+      Main Character - Male - Full spritesheet - No Guide_85: -1417067115
+      Main Character - Male - Full spritesheet - No Guide_16: -795020220
+      Main Character - Male - Full spritesheet - No Guide_90: 967460655
+      Main Character - Male - Full spritesheet - No Guide_19: 1828402224
+      Main Character - Male - Full spritesheet - No Guide_13: 494357392
+      Main Character - Male - Full spritesheet - No Guide_55: 1865888700
+      Main Character - Male - Full spritesheet - No Guide_46: 1010276994
+      Main Character - Male - Full spritesheet - No Guide_2: -1481615103
+      Main Character - Male - Full spritesheet - No Guide_117: -1059200188
+      Main Character - Male - Full spritesheet - No Guide_10: -2055405189
+      Main Character - Male - Full spritesheet - No Guide_8: -1383369842
+      Main Character - Male - Full spritesheet - No Guide_43: -2048926870
+      Main Character - Male - Full spritesheet - No Guide_48: 695681370
+      Main Character - Male - Full spritesheet - No Guide_119: 492632525
+      Main Character - Male - Full spritesheet - No Guide_70: 1349869770
+      Main Character - Male - Full spritesheet - No Guide_79: 2070747613
+      Main Character - Male - Full spritesheet - No Guide_20: -1010101344
+      Main Character - Male - Full spritesheet - No Guide_56: -1068157632
+      Main Character - Male - Full spritesheet - No Guide_103: -187574098
+      Main Character - Male - Full spritesheet - No Guide_17: 1937516046
+      Main Character - Male - Full spritesheet - No Guide_100: -795887085
+      Main Character - Male - Full spritesheet - No Guide_6: 1133999376
+      Main Character - Male - Full spritesheet - No Guide_7: -1776506565
+      Main Character - Male - Full spritesheet - No Guide_26: -584385460
+      Main Character - Male - Full spritesheet - No Guide_49: -2025004597
+      Main Character - Male - Full spritesheet - No Guide_58: -1367992504
+      Main Character - Male - Full spritesheet - No Guide_110: 168499358
+      Main Character - Male - Full spritesheet - No Guide_51: 1704872492
+      Main Character - Male - Full spritesheet - No Guide_15: -1397555976
+      Main Character - Male - Full spritesheet - No Guide_97: -1977985376
+      Main Character - Male - Full spritesheet - No Guide_30: 1094589457
+      Main Character - Male - Full spritesheet - No Guide_45: -1247380274
+      Main Character - Male - Full spritesheet - No Guide_63: 478979600
+      Main Character - Male - Full spritesheet - No Guide_74: -1873983513
+      Main Character - Male - Full spritesheet - No Guide_116: -970465427
+      Main Character - Male - Full spritesheet - No Guide_21: 890168707
+      Main Character - Male - Full spritesheet - No Guide_92: 2127079806
+      Main Character - Male - Full spritesheet - No Guide_14: 271304665
+      Main Character - Male - Full spritesheet - No Guide_44: -1625608027
+      Main Character - Male - Full spritesheet - No Guide_53: 984778213
+      Main Character - Male - Full spritesheet - No Guide_68: -347240397
+      Main Character - Male - Full spritesheet - No Guide_62: -1214280851
+      Main Character - Male - Full spritesheet - No Guide_9: 1509340401
+      Main Character - Male - Full spritesheet - No Guide_35: -1300827102
+      Main Character - Male - Full spritesheet - No Guide_0: 1652401027
+      Main Character - Male - Full spritesheet - No Guide_118: 577116450
+      Main Character - Male - Full spritesheet - No Guide_120: 1996820693
+      Main Character - Male - Full spritesheet - No Guide_52: 1337675954
+      Main Character - Male - Full spritesheet - No Guide_54: -1858594557
+      Main Character - Male - Full spritesheet - No Guide_101: -1729913652
+      Main Character - Male - Full spritesheet - No Guide_66: -1869042010
+      Main Character - Male - Full spritesheet - No Guide_41: 1549753618
+      Main Character - Male - Full spritesheet - No Guide_64: -1163640093
+      Main Character - Male - Full spritesheet - No Guide_23: 277574428
+      Main Character - Male - Full spritesheet - No Guide_107: 1115658883
+      Main Character - Male - Full spritesheet - No Guide_67: -1723697016
+      Main Character - Male - Full spritesheet - No Guide_5: 1004552852
+      Main Character - Male - Full spritesheet - No Guide_28: -1726518488
+      Main Character - Male - Full spritesheet - No Guide_22: -820922169
+      Main Character - Male - Full spritesheet - No Guide_32: 1518878711
+      Main Character - Male - Full spritesheet - No Guide_80: 1919683336
+      Main Character - Male - Full spritesheet - No Guide_18: -1374056986
+      Main Character - Male - Full spritesheet - No Guide_31: 1442908937
+      Main Character - Male - Full spritesheet - No Guide_47: -1407264962
+      Main Character - Male - Full spritesheet - No Guide_4: 2075804898
+      Main Character - Male - Full spritesheet - No Guide_112: -164835350
+      Main Character - Male - Full spritesheet - No Guide_42: 894405340
+      Main Character - Male - Full spritesheet - No Guide_71: -1416091459
+      Main Character - Male - Full spritesheet - No Guide_81: 117449617
+      Main Character - Male - Full spritesheet - No Guide_11: -555541606
+      Main Character - Male - Full spritesheet - No Guide_99: 403335109
+      Main Character - Male - Full spritesheet - No Guide_29: -1517807439
+      Main Character - Male - Full spritesheet - No Guide_104: -1357393869
+      Main Character - Male - Full spritesheet - No Guide_72: -1421336685
+      Main Character - Male - Full spritesheet - No Guide_83: -1999484523
+      Main Character - Male - Full spritesheet - No Guide_105: -2062073488
+      Main Character - Male - Full spritesheet - No Guide_93: 569541629
+      Main Character - Male - Full spritesheet - No Guide_33: -268909605
+      Main Character - Male - Full spritesheet - No Guide_111: 970963951
+      Main Character - Male - Full spritesheet - No Guide_12: 1366974307
+      Main Character - Male - Full spritesheet - No Guide_50: -305097321
+      Main Character - Male - Full spritesheet - No Guide_113: -13098441
+      Main Character - Male - Full spritesheet - No Guide_84: -844559438
+      Main Character - Male - Full spritesheet - No Guide_87: 694703099
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
