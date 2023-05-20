@@ -3,15 +3,29 @@ using UnityEngine;
 //This class is in charge of the inputs
 public class CharacterController : MonoBehaviour
 {
-    [SerializeField] private float _speed = 5;
+    [SerializeField] private float _speed = 200;
+    [SerializeField] private float _jumpForce = 50;
     
     [HideInInspector] public float horizontal;
 
     private CharacterMovement characterMovement;
+    private bool wasPress;
     
     private void Awake() 
     {
         characterMovement = GetComponent<CharacterMovement>();
+        Time.timeScale = 1;
+    }
+    private void Update() 
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            wasPress = true;
+        }
+        else if(Input.GetKeyUp(KeyCode.Space))
+        {
+            wasPress = false;
+        }
     }
     private void FixedUpdate() 
     {
@@ -21,5 +35,10 @@ public class CharacterController : MonoBehaviour
         characterMovement.Move(movingVector, _speed);
 
         characterMovement.Flip();
+
+        if(wasPress && characterMovement.isGround)
+        {
+            characterMovement.Jump(_jumpForce);
+        }
     }
 }

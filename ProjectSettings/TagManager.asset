@@ -9,6 +9,8 @@ TagManager:
   - Chest
   - Writing
   - Teleporter
+  - Ground
+  - Coin
   layers:
   - Default
   - TransparentFX
