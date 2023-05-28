@@ -7,6 +7,7 @@ public class ClaimCoin : MonoBehaviour
 {
     [SerializeField] private GameObject _coin1;
     [SerializeField] private TextMeshProUGUI _coinsCount;
+    [SerializeField] private Animator _coinAnime;
 
     private string textPattern = "количество монет: ";
     private bool claim;
@@ -27,7 +28,7 @@ public class ClaimCoin : MonoBehaviour
     {
         if(other.CompareTag("Coin"))
         {
-            Destroy(_coin1);
+            _coinAnime.SetBool("ClaimCoin", true);
             claim = true;
         }   
     }

@@ -4,6 +4,7 @@ public class UsingChalk : MonoBehaviour
 {
     [SerializeField] private Animator _doorAnime;
     [SerializeField] private GameObject _guideText;
+    [SerializeField] private Collider2D _wallCollider;
 
     private OpeningCheck openingCheck;
     private bool writing;
@@ -32,9 +33,11 @@ public class UsingChalk : MonoBehaviour
     {
         if(openingCheck.isClaimed && writing)
         {
+           
             _guideText.SetActive(true);
             if(Input.GetKeyDown(KeyCode.E))
             {
+                _wallCollider.isTrigger = true;
                 _doorAnime.SetBool("isClaimed", true);
             }
         }    
